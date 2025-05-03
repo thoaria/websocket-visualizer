@@ -44,7 +44,7 @@ function App() {
         <Menubar className="pt-5 pb-5">
           <MenubarMenu>
             <ModeToggle />
-            <Button variant="outline" className="" onClick={() => { window.location.replace('https://cse312.com/') }}>Course Website</Button>
+            <Button variant="outline" className="" onClick={() => { window.location.assign('https://cse312.com/') }}>Course Website</Button>
           </MenubarMenu>
         </Menubar>
         <div className="flex flex-col gap-50 items-center justify-center content-center">
