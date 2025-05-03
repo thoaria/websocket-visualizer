@@ -27,7 +27,7 @@ jobs:
       - run: pnpm run build
       - uses: actions/configure-pages@v5
         with:
-          path: dist
+          static_site_generator: dist
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
