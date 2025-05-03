@@ -7,8 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "pnpm run dev",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://thoaria.github.io/websocket-visualizer/",
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-checkbox": "^1.2.3",
