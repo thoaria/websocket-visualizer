@@ -22,9 +22,9 @@ export function Bit(props: any) {
 
     return (
         <>
-            <div className="flex flex-col text-white">
+            <div className="flex flex-col">
                 {label}
-                <Card className={"w-10 shadow-none px-0 items-center bg-white text-black"}>
+                <Card className={"w-10 shadow-none px-0 items-center border-black dark:border-white"}>
                     <CardContent>
                         {value}
                     </CardContent>

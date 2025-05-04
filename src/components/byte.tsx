@@ -67,7 +67,7 @@ export function Byte(props: any) {
     }
 
     return (
-        <Card className={"w-100 flex flex-col gap-1" + className}>
+        <Card className={"w-100 flex flex-col gap-1 border-black dark:border-white" + className}>
               <CardContent className="flex flex-row justify-center gap-2">
                 { array?.map((bit: any, i: any) => {
                     return <Bit label = {i} value = {bit} type = {type} />
